@@ -1,0 +1,3266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1250</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202203291341</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 7fc91a2f-fae6-4e2f-bcd6-deeb6c7f9251</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">StaticArchitecture</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:26:2</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">ServiceDesignTemplate</_hname>
+					<_hid type="a">GUID be9543de-5d4b-428b-a7d1-abc5e53f2031</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.21.2022::17:26:2</_modifiedTime>
+			<_lastID type="a">15</_lastID>
+			<weakCGTime type="a">11.21.2022::17:26:2</weakCGTime>
+			<strongCGTime type="a">11.21.2022::17:11:25</strongCGTime>
+			<_defaultComposite type="s">GUID 5ec9bdf2-e9ca-4cf1-8856-167fb08ee46c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">11.21.2022::16:30:47</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 7f248faf-ae1e-4f22-a9fe-8663af4ca35d</value>
+				<value>GUID e42490f7-e82e-4dd5-885e-43b696872378</value>
+				<value>GUID 874d6202-e476-4eb1-9c54-05720ad16d0c</value>
+				<value>GUID 5be2adeb-0233-4505-a8ac-979db3271d68</value>
+				<value>GUID 15a227a6-305b-49b0-8ae9-90390dac82dd</value>
+				<value>GUID 5ec9bdf2-e9ca-4cf1-8856-167fb08ee46c</value>
+				<value>GUID c68be676-e806-4c66-a42b-7c90604da3e6</value>
+				<value>GUID 1369d7c4-e969-43e3-a051-c467aebfe897</value>
+				<value>GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</value>
+				<value>GUID b5c820cd-abf2-4395-90f3-9974be5e0103</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IComment type="e">
+			<_id type="a">GUID 7f248faf-ae1e-4f22-a9fe-8663af4ca35d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">comment_14</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:24:28</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1038{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\lang1033\fs20 Is it possible in the ADAS SW architecture that one SW service is aggregated by multiple SW entities? E.g if a service's state machine is realized on a specific CPU core and the other part of the code is allocated to a HW accelerator facilitated by another core?\lang1038\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">11.21.2022::17:24:28</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 4e075285-43df-4ec8-915c-92aa29b20109</value>
+				<value>GUID d9047919-ed85-43c2-bdc8-7d2a441d3821</value>
+				<value>GUID 3691fc20-a412-4a0c-977e-c158e3d6d4c9</value>
+			</AggregatesList>
+		</IComment>
+		<IAnchor type="e">
+			<_id type="a">GUID 4e075285-43df-4ec8-915c-92aa29b20109</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_1</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:22:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:22:44</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID dbe674f5-2cf5-474b-a164-382d80a0a2ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID d9047919-ed85-43c2-bdc8-7d2a441d3821</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_3</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:24:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:24:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 7b9620ee-48e2-4cad-9d97-c3ca3e2fb27c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<IAnchor type="e">
+			<_id type="a">GUID 3691fc20-a412-4a0c-977e-c158e3d6d4c9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">anchor_4</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:24:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:24:28</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 85edca0a-05ce-4c6d-b9d6-f2f6c21c3722</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+		</IAnchor>
+		<ISubsystem type="e">
+			<fileName type="a">TopLevelInterface</fileName>
+			<_id type="a">GUID e42490f7-e82e-4dd5-885e-43b696872378</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">StaticConnections</fileName>
+			<_id type="a">GUID 874d6202-e476-4eb1-9c54-05720ad16d0c</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">ClassDiagramOfService</fileName>
+			<_id type="a">GUID 5be2adeb-0233-4505-a8ac-979db3271d68</_id>
+		</ISubsystem>
+		<IDiagram type="e">
+			<_id type="a">GUID 15a227a6-305b-49b0-8ae9-90390dac82dd</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">FreeText</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">HorzAlign</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.Transparent</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Multiline</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">VertAlign</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Wordbreak</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">StaticArchitecture</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">Class Diagram</_hname>
+							<_hid type="a">GUID d8f09f1b-7167-4c70-9584-943cfaf8fa2a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.14.2022::17:20:43</_modifiedTime>
+			<_lastModifiedTime type="a">11.14.2022::17:20:43</_lastModifiedTime>
+			<m_hReferencedDiagram type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_hReferencedDiagram>
+			<_defaultSubsystem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 7fc91a2f-fae6-4e2f-bcd6-deeb6c7f9251</_hid>
+				</IHandle>
+			</_defaultSubsystem>
+			<AggregatesList type="e">
+				<value>GUID e343daa1-ac42-4b7d-bdc4-ab21e95a6f14</value>
+				<value>GUID cf6069c0-09be-4903-b5ea-7bca72a409cf</value>
+			</AggregatesList>
+		</IDiagram>
+		<IMHyperLink type="e">
+			<_id type="a">GUID e343daa1-ac42-4b7d-bdc4-ab21e95a6f14</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.11.2022::11:37:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 15a227a6-305b-49b0-8ae9-90390dac82dd</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">StaticArchitecture</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<CGIClassChart type="e">
+			<_id type="a">GUID cf6069c0-09be-4903-b5ea-7bca72a409cf</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 15a227a6-305b-49b0-8ae9-90390dac82dd</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<elementList type="a">6</elementList>
+			
+			<m_access type="a">'Z'</m_access>
+			<m_modified type="a">'N'</m_modified>
+			<m_nModifyDate type="a">0</m_nModifyDate>
+			<m_nCreateDate type="a">0</m_nCreateDate>
+			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
+			<m_arrowStyle type="a">'S'</m_arrowStyle>
+			<m_pRoot type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pRoot>
+			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
+			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
+			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
+			<AggregatesList type="e">
+				<value>GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</value>
+				<value>GUID 5c51173a-74b4-41e3-a8e6-7c6d5184b890</value>
+				<value>GUID 58dfbcca-d847-4b75-b7ce-b4724d2a7e38</value>
+				<value>GUID b48d8573-7022-4431-af66-0b0153587ea8</value>
+				<value>GUID cb780456-8ab4-4fef-bde3-fef1d809da40</value>
+				<value>GUID 43351d6b-d244-4d1e-8b73-372d9bd47b5f</value>
+			</AggregatesList>
+		</CGIClassChart>
+		<CGIClass type="e">
+			<_id type="a">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</_id>
+			<m_type type="a">78</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5ec9bdf2-e9ca-4cf1-8856-167fb08ee46c</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TopLevel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">0 </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+		</CGIClass>
+		<CGIGenericElement type="e">
+			<_id type="a">GUID 5c51173a-74b4-41e3-a8e6-7c6d5184b890</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">243</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IMHyperLink</_hm2Class>
+					<_hname type="a">ClassDiagramOfService</_hname>
+					<_hid type="a">GUID 2c17d739-f8db-48e8-b53d-10e5e3f56ce2</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">ClassDiagramOfService</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.863636 0 0 0.481481 272 143 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIGenericElement>
+		<CGIFreeText type="e">
+			<_id type="a">GUID 58dfbcca-d847-4b75-b7ce-b4724d2a7e38</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">FreeText</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">20</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">189</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">1 0 0 1 -19 -1 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_points type="a">4 59 32  97 32  97 50  59 50  </m_points>
+			<m_text type="a">Static Architecture</m_text>
+		</CGIFreeText>
+		<CGIGenericElement type="e">
+			<_id type="a">GUID b48d8573-7022-4431-af66-0b0153587ea8</_id>
+			<m_type type="a">243</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IMHyperLink</_hm2Class>
+					<_hname type="a">StaticConnections</_hname>
+					<_hid type="a">GUID 7c90b2f3-cfbe-46ea-865e-fb4ce7aaa4aa</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">StaticConnections</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.863636 0 0 0.481481 272 284 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIGenericElement>
+		<CGIGenericElement type="e">
+			<_id type="a">GUID cb780456-8ab4-4fef-bde3-fef1d809da40</_id>
+			<m_type type="a">243</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IMHyperLink</_hm2Class>
+					<_hname type="a">TopLevelInterface</_hname>
+					<_hid type="a">GUID d7a814a4-601a-47aa-b7a7-49ff455ae594</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TopLevelInterface</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.863636 0 0 0.481481 272 425 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIGenericElement>
+		<CGIGenericElement type="e">
+			<_id type="a">GUID 43351d6b-d244-4d1e-8b73-372d9bd47b5f</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">243</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IMHyperLink</_hm2Class>
+					<_hname type="a">Table Of Contents</_hname>
+					<_hid type="a">GUID b255a35b-1cef-4ad9-8eb4-cc617ce5cb5f</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 997f2b67-9006-44bc-9c2b-5252a2f47e17</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Table Of Contents</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.632576 0 0 0.472222 296 27 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIGenericElement>
+		<IClass type="e">
+			<_id type="a">GUID 5ec9bdf2-e9ca-4cf1-8856-167fb08ee46c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:26:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:26:2</_modifiedTime>
+			<weakCGTime type="a">11.21.2022::17:26:2</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 82e6b421-5bd7-48ad-b199-1aafb2069fea</value>
+				<value>GUID 2a6d45fb-6517-487f-98a5-ffb5fb2a3bd6</value>
+				<value>GUID b0fefa78-b636-4be9-bc8f-fc58c92471ff</value>
+				<value>GUID 44526975-ba47-4294-b28f-3923834aa8cb</value>
+				<value>GUID 80ac1cd3-f18f-4330-8fd5-c971f10fe148</value>
+				<value>GUID b037575d-c3d4-415f-9f87-26a68dfe4a94</value>
+				<value>GUID db4c0dae-5932-4049-aa56-15c0a0fbe42b</value>
+				<value>GUID f2fde524-bb20-46ea-b344-1bbd20f90fc1</value>
+				<value>GUID 90e82f5f-f1cf-41a0-a12d-da85e4251c61</value>
+				<value>GUID 582cfdd7-f3f2-4961-ba63-ccf983c9e555</value>
+				<value>GUID 6cd48c2b-5b2a-4a1f-a899-2128f66027c7</value>
+				<value>GUID 5bc47a21-5787-4405-a071-f963c848d9d3</value>
+				<value>GUID 72d37477-4456-4dcd-809f-9b903bf309e1</value>
+				<value>GUID 870d46c6-47da-46c0-ae78-96d1cd179043</value>
+				<value>GUID d088022d-b978-487a-94c4-d07a8e381283</value>
+				<value>GUID 909f8e13-975b-4402-baa0-da431e3663dd</value>
+				<value>GUID b515b8ff-2d14-4619-a2ac-60d82089f3d1</value>
+				<value>GUID 9d7736b7-4ed8-4dc1-883c-854579ecbeda</value>
+				<value>GUID 9c99237e-67aa-42a6-bcd8-193e197febed</value>
+				<value>GUID 6d51525c-91c0-45cf-9929-ea7326cdd5f1</value>
+				<value>GUID df0f87ff-b489-42e5-ab44-fa55ec9c6b9e</value>
+				<value>GUID a9cc36e3-ca92-4f8a-b175-c43ee8371b6d</value>
+			</AggregatesList>
+		</IClass>
+		<IPart type="e">
+			<_id type="a">GUID 82e6b421-5bd7-48ad-b199-1aafb2069fea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">adc5xx_cvu</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:0:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:0:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6c8bff13-6e1d-4c24-8d09-07b1229a05b7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 6c8bff13-6e1d-4c24-8d09-07b1229a05b7</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">adc5xx_cvu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:8</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:8</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:8</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:37:44</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID b578c7b7-dca9-4188-815d-c90aec8bdd15</value>
+					<value>GUID 9f1625a8-8169-4bde-9b3c-bd8fe3b702d5</value>
+					<value>GUID dbe674f5-2cf5-474b-a164-382d80a0a2ef</value>
+					<value>GUID 7b9620ee-48e2-4cad-9d97-c3ca3e2fb27c</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID b578c7b7-dca9-4188-815d-c90aec8bdd15</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 9f1625a8-8169-4bde-9b3c-bd8fe3b702d5</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:31</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:31</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 265bfc3d-6d4b-4f80-9f51-a125738a3d9a</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID dbe674f5-2cf5-474b-a164-382d80a0a2ef</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:0:49</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:0:49</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6439bdbb-3c30-4f57-9eee-58d453bd620b</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 1e8d4e20-e833-44ef-8440-0fb2460ce240</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 7b9620ee-48e2-4cad-9d97-c3ca3e2fb27c</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:8</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:8</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 8cee8174-563e-4c60-a5d2-5b1c092eba36</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 2a6d45fb-6517-487f-98a5-ffb5fb2a3bd6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">adc5xx_ippu</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:1:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:1:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID f75e67af-9e6d-43e1-9d49-07b83643efb8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID f75e67af-9e6d-43e1-9d49-07b83643efb8</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">adc5xx_ippu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:29</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:29</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:29</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:38:6</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID c4eb7a67-5534-42ba-8cad-c2edbb994d4e</value>
+					<value>GUID 98f36008-dda4-45dd-a202-a3d82248fcc0</value>
+					<value>GUID 388b3204-689e-46a3-aa6f-59e91ca68eaa</value>
+					<value>GUID 85edca0a-05ce-4c6d-b9d6-f2f6c21c3722</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID c4eb7a67-5534-42ba-8cad-c2edbb994d4e</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 98f36008-dda4-45dd-a202-a3d82248fcc0</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:37</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:37</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID d0f990ce-a370-45b1-be44-c0cd682d385b</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 388b3204-689e-46a3-aa6f-59e91ca68eaa</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:58:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:58:26</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 85edca0a-05ce-4c6d-b9d6-f2f6c21c3722</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService2_1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:29</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID da16bcad-c336-42b0-9474-f8208354e6af</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID b0fefa78-b636-4be9-bc8f-fc58c92471ff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">adc5xx_spu</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:1:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:1:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 0eeee478-e916-4706-a7a5-3b911f6b4ed9</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 0eeee478-e916-4706-a7a5-3b911f6b4ed9</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">adc5xx_spu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:39</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:39</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:39</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:38:13</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID c9fc8873-0dc8-4357-9b54-b300da361b68</value>
+					<value>GUID 2ab4a8e5-9acb-4e0d-bbc4-d02bc2db4da1</value>
+					<value>GUID d14a20b7-0e97-41d5-87fa-5f84825e3458</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID c9fc8873-0dc8-4357-9b54-b300da361b68</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 2ab4a8e5-9acb-4e0d-bbc4-d02bc2db4da1</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:53</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID a4a87de2-c982-4dbf-bf4a-c22300de992b</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID d14a20b7-0e97-41d5-87fa-5f84825e3458</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService3</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:39</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:39</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 341d2df4-1a1d-4ee1-a142-85303d65ce70</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 4e4d810d-17a6-437d-93b3-ebcf2ec899e1</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 44526975-ba47-4294-b28f-3923834aa8cb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">plp_apu_app</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:1:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:1:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5e348f92-34fd-4876-9fef-4719b800d83f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 5e348f92-34fd-4876-9fef-4719b800d83f</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">plp_apu_app</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:46</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:46</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:46</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:38:20</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID d788b844-5646-4f85-9d44-39d530b1a042</value>
+					<value>GUID 557d0f13-5e38-4980-b2dd-6846f79230eb</value>
+					<value>GUID 967b4af3-17f8-4153-a0fa-f3020967f943</value>
+					<value>GUID 2343dd8c-529b-45f7-ac69-a1d872062884</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID d788b844-5646-4f85-9d44-39d530b1a042</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 557d0f13-5e38-4980-b2dd-6846f79230eb</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:55</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID a1d43282-32b7-4962-9646-fb0750f136b2</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 967b4af3-17f8-4153-a0fa-f3020967f943</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:58:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:58:26</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 2343dd8c-529b-45f7-ac69-a1d872062884</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService4</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:46</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:46</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID e7f295d3-1856-432b-b284-5822ced0ab34</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 3e53b38c-f517-4d13-b3c1-3a34ef5ce3dd</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 80ac1cd3-f18f-4330-8fd5-c971f10fe148</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">swfw_apu_measurement</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:1:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:1:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 4b16c34f-989c-4cae-9be6-5249fe6b8352</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 4b16c34f-989c-4cae-9be6-5249fe6b8352</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">swfw_apu_measurement</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:56</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:56</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:56</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:38:26</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 606dd339-9653-4790-8ae0-4befc9aa747b</value>
+					<value>GUID f5044b15-fc39-4c44-83df-6b36f113facf</value>
+					<value>GUID 3106e2f5-229c-4084-81aa-389a129513d2</value>
+					<value>GUID 65cc9e4f-35e8-4843-b5c8-fc1ec86be5fe</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 606dd339-9653-4790-8ae0-4befc9aa747b</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID f5044b15-fc39-4c44-83df-6b36f113facf</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:41:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:41:0</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID b3e32cdc-c69d-4f0a-a59e-d4a59a340bf8</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 3106e2f5-229c-4084-81aa-389a129513d2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwService6</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:53</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 0447e2f5-556a-43aa-9b87-24fdb49f477a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID be49db26-aa5d-4875-bfbd-de6cd1274bbe</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 65cc9e4f-35e8-4843-b5c8-fc1ec86be5fe</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwService7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:56</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6ab9cc08-f4b3-42d4-898e-a22df6aca4f8</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 8a8ef7c2-7c79-4c6c-b848-b5bfe12a0dbe</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID b037575d-c3d4-415f-9f87-26a68dfe4a94</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">swfw_iu_adc5</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:1:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:1:50</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 018c895d-4cc2-46a3-9827-c5f22a99893b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 018c895d-4cc2-46a3-9827-c5f22a99893b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">swfw_iu_adc5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:50</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:1:50</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:1:50</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:38:33</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID a213955f-4ace-4919-a9d5-fa9586a87bd8</value>
+					<value>GUID 025cc81e-97f5-45f9-810b-67e193e2f277</value>
+					<value>GUID 7ea8cb7d-2723-42ee-8af3-a9489ceac9c8</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID a213955f-4ace-4919-a9d5-fa9586a87bd8</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 025cc81e-97f5-45f9-810b-67e193e2f277</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:57</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 581a849b-d614-41f7-aa7f-763b70c123ff</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 7ea8cb7d-2723-42ee-8af3-a9489ceac9c8</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:50</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:50</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID ed094d7e-4578-445e-a4ee-9542e08eacf2</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 0ca54ad3-5c2b-4e0a-87a9-11a80e03201b</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Aggreg</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID db4c0dae-5932-4049-aa56-15c0a0fbe42b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ADCUParkingSw</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:26:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:26:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 5800f46b-b5e9-402d-af6c-705969ae8721</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">ADCUParkingSw</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:26:2</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:26:2</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:26:2</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:40:15</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 8011514b-5f23-42f6-a812-79a072c37e84</value>
+					<value>GUID 265bfc3d-6d4b-4f80-9f51-a125738a3d9a</value>
+					<value>GUID d0f990ce-a370-45b1-be44-c0cd682d385b</value>
+					<value>GUID a4a87de2-c982-4dbf-bf4a-c22300de992b</value>
+					<value>GUID a1d43282-32b7-4962-9646-fb0750f136b2</value>
+					<value>GUID 581a849b-d614-41f7-aa7f-763b70c123ff</value>
+					<value>GUID b3e32cdc-c69d-4f0a-a59e-d4a59a340bf8</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 8011514b-5f23-42f6-a812-79a072c37e84</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID b5c820cd-abf2-4395-90f3-9974be5e0103</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 265bfc3d-6d4b-4f80-9f51-a125738a3d9a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_cvu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:31</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:31</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6c8bff13-6e1d-4c24-8d09-07b1229a05b7</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 9f1625a8-8169-4bde-9b3c-bd8fe3b702d5</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID d0f990ce-a370-45b1-be44-c0cd682d385b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_ippu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:37</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:37</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID f75e67af-9e6d-43e1-9d49-07b83643efb8</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 98f36008-dda4-45dd-a202-a3d82248fcc0</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID a4a87de2-c982-4dbf-bf4a-c22300de992b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_spu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:53</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 0eeee478-e916-4706-a7a5-3b911f6b4ed9</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 2ab4a8e5-9acb-4e0d-bbc4-d02bc2db4da1</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID a1d43282-32b7-4962-9646-fb0750f136b2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsPlp_apu_app</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:55</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5e348f92-34fd-4876-9fef-4719b800d83f</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 557d0f13-5e38-4980-b2dd-6846f79230eb</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 581a849b-d614-41f7-aa7f-763b70c123ff</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwfw_iu_adc5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:40:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:40:57</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 018c895d-4cc2-46a3-9827-c5f22a99893b</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 025cc81e-97f5-45f9-810b-67e193e2f277</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID b3e32cdc-c69d-4f0a-a59e-d4a59a340bf8</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwfw_apu_measurement</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::16:41:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::16:41:0</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 4b16c34f-989c-4cae-9be6-5249fe6b8352</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID f5044b15-fc39-4c44-83df-6b36f113facf</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID f2fde524-bb20-46ea-b344-1bbd20f90fc1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWService2</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:56</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWService2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:56</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:56</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:56</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:56:9</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 8857ee5a-d47f-44d4-88ed-37f73ec0dd3d</value>
+					<value>GUID 8cee8174-563e-4c60-a5d2-5b1c092eba36</value>
+					<value>GUID da16bcad-c336-42b0-9474-f8208354e6af</value>
+					<value>GUID 32db3c03-a012-4c85-a2a0-1db3aef15dd4</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 8857ee5a-d47f-44d4-88ed-37f73ec0dd3d</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 8cee8174-563e-4c60-a5d2-5b1c092eba36</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_cvu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:8</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:8</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6c8bff13-6e1d-4c24-8d09-07b1229a05b7</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 7b9620ee-48e2-4cad-9d97-c3ca3e2fb27c</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID da16bcad-c336-42b0-9474-f8208354e6af</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_ippu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:29</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID f75e67af-9e6d-43e1-9d49-07b83643efb8</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 85edca0a-05ce-4c6d-b9d6-f2f6c21c3722</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 32db3c03-a012-4c85-a2a0-1db3aef15dd4</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:56</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID ac412439-9f97-47bf-b25f-254b06d24a0d</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 32dbe2d3-98b7-422c-bdd4-bd57a4aa9fa0</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 90e82f5f-f1cf-41a0-a12d-da85e4251c61</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWService3</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 341d2df4-1a1d-4ee1-a142-85303d65ce70</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 341d2df4-1a1d-4ee1-a142-85303d65ce70</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWService3</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:51</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:51</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:51</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:56:15</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID bbfd462b-103f-4b18-88a5-19e1c31a1a2e</value>
+					<value>GUID 4e4d810d-17a6-437d-93b3-ebcf2ec899e1</value>
+					<value>GUID aacba4ac-41b3-4149-981c-8c7f249d5a9a</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID bbfd462b-103f-4b18-88a5-19e1c31a1a2e</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 4e4d810d-17a6-437d-93b3-ebcf2ec899e1</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_spu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:39</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:39</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 0eeee478-e916-4706-a7a5-3b911f6b4ed9</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID d14a20b7-0e97-41d5-87fa-5f84825e3458</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID aacba4ac-41b3-4149-981c-8c7f249d5a9a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent3</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:51</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:51</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID b13004b2-084a-4321-bdd1-b49ca89f9127</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 1d04bf6a-baa9-4994-8f08-a4a999f9d792</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 582cfdd7-f3f2-4961-ba63-ccf983c9e555</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWService4</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:48</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID e7f295d3-1856-432b-b284-5822ced0ab34</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID e7f295d3-1856-432b-b284-5822ced0ab34</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWService4</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:48</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:48</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:48</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:56:22</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 43645ebe-470e-449b-b38e-2a349fa06db8</value>
+					<value>GUID 3e53b38c-f517-4d13-b3c1-3a34ef5ce3dd</value>
+					<value>GUID 582cfffd-dfaa-4a98-ba82-7de49cab28bf</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 43645ebe-470e-449b-b38e-2a349fa06db8</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 3e53b38c-f517-4d13-b3c1-3a34ef5ce3dd</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsPlp_apu_app</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:46</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:46</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 5e348f92-34fd-4876-9fef-4719b800d83f</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 2343dd8c-529b-45f7-ac69-a1d872062884</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 582cfffd-dfaa-4a98-ba82-7de49cab28bf</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent4</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:48</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:48</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID a857dd65-1fc3-4eb1-8b94-e1ae66a78df5</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID b2586315-3949-4fc6-8458-7d3a56a9dd5e</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 6cd48c2b-5b2a-4a1f-a899-2128f66027c7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWService1</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6439bdbb-3c30-4f57-9eee-58d453bd620b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 6439bdbb-3c30-4f57-9eee-58d453bd620b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWService1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:59</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:59</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:59</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:56:2</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID bf6004a4-30e4-4ae7-8312-35212465cfb8</value>
+					<value>GUID 1e8d4e20-e833-44ef-8440-0fb2460ce240</value>
+					<value>GUID e25302be-1fe2-4f4d-8506-cc95d940c427</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID bf6004a4-30e4-4ae7-8312-35212465cfb8</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 1e8d4e20-e833-44ef-8440-0fb2460ce240</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsAdc5xx_cvu</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:0:49</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:0:49</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6c8bff13-6e1d-4c24-8d09-07b1229a05b7</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID dbe674f5-2cf5-474b-a164-382d80a0a2ef</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID e25302be-1fe2-4f4d-8506-cc95d940c427</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:59</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID eb4d8052-a1c4-4d43-b98d-a63b6900fb10</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID dde55479-7332-4ea7-87a7-3a54335d4bf2</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 5bc47a21-5787-4405-a071-f963c848d9d3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWService5</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:44</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ed094d7e-4578-445e-a4ee-9542e08eacf2</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID ed094d7e-4578-445e-a4ee-9542e08eacf2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWService5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:44</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:44</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:44</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:56:55</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID b646fe49-93ab-449b-8899-4938500d54d3</value>
+					<value>GUID 0ca54ad3-5c2b-4e0a-87a9-11a80e03201b</value>
+					<value>GUID 3bea1f97-f7e4-4acf-95c8-2e8bb5d4304a</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID b646fe49-93ab-449b-8899-4938500d54d3</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 0ca54ad3-5c2b-4e0a-87a9-11a80e03201b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwfw_iu_adc5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:50</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:50</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 018c895d-4cc2-46a3-9827-c5f22a99893b</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 7ea8cb7d-2723-42ee-8af3-a9489ceac9c8</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 3bea1f97-f7e4-4acf-95c8-2e8bb5d4304a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:44</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:44</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID bec6dcc8-b186-4889-bc77-43e03e00988d</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID e0c40b88-956a-4666-9cdd-24213f975c9d</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 72d37477-4456-4dcd-809f-9b903bf309e1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwService6</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:41</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 0447e2f5-556a-43aa-9b87-24fdb49f477a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 0447e2f5-556a-43aa-9b87-24fdb49f477a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SwService6</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:41</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:41</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:41</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:57:6</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID f22f13f8-993e-45f1-92a6-393edf601dcc</value>
+					<value>GUID be49db26-aa5d-4875-bfbd-de6cd1274bbe</value>
+					<value>GUID eae696f1-ff82-403b-a5d9-9cb7a43b0be2</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID f22f13f8-993e-45f1-92a6-393edf601dcc</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID be49db26-aa5d-4875-bfbd-de6cd1274bbe</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwfw_apu_measurement</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:53</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 4b16c34f-989c-4cae-9be6-5249fe6b8352</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 3106e2f5-229c-4084-81aa-389a129513d2</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID eae696f1-ff82-403b-a5d9-9cb7a43b0be2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent6</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:41</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:41</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID f32b12ae-1d7c-4848-b009-eb36db3b995d</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 8a6f4261-e8e0-48f6-8a5e-1ff8f6c3b9bd</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 870d46c6-47da-46c0-ae78-96d1cd179043</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwService7</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:13:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:13:18</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6ab9cc08-f4b3-42d4-898e-a22df6aca4f8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 6ab9cc08-f4b3-42d4-898e-a22df6aca4f8</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SwService7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:33</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:13:33</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:13:33</weakCGTime>
+				<strongCGTime type="a">11.21.2022::16:57:13</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 36f54f53-e276-4a7d-8ae9-4ca234a17343</value>
+					<value>GUID 8a8ef7c2-7c79-4c6c-b848-b5bfe12a0dbe</value>
+					<value>GUID e61b176f-4fcd-493b-95fd-44f2da1060cc</value>
+					<value>GUID 12a0d314-3286-49f9-abf1-a6b05626e44d</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 36f54f53-e276-4a7d-8ae9-4ca234a17343</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 8a8ef7c2-7c79-4c6c-b848-b5bfe12a0dbe</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwfw_apu_measurement</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:1:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:1:56</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 4b16c34f-989c-4cae-9be6-5249fe6b8352</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 65cc9e4f-35e8-4843-b5c8-fc1ec86be5fe</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID e61b176f-4fcd-493b-95fd-44f2da1060cc</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent8</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:18</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:18</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 676aa8df-2e11-41c8-a7e1-32a1116ea912</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 66ab6ae5-69ea-4f79-a598-e4058de9299a</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 12a0d314-3286-49f9-abf1-a6b05626e44d</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWComponent7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:33</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:33</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID fe6e8a96-6d4e-4a10-ba4d-ddb56db1137c</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID fe41fb2f-5ddb-4027-9c2b-511ada48fc1e</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Composition</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID d088022d-b978-487a-94c4-d07a8e381283</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent1</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:36</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID eb4d8052-a1c4-4d43-b98d-a63b6900fb10</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID eb4d8052-a1c4-4d43-b98d-a63b6900fb10</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:36</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:36</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:36</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:8:52</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID e8a20c15-b72c-4137-bc7f-d410c2791b1f</value>
+					<value>GUID dde55479-7332-4ea7-87a7-3a54335d4bf2</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID e8a20c15-b72c-4137-bc7f-d410c2791b1f</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID dde55479-7332-4ea7-87a7-3a54335d4bf2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService1</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:59</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6439bdbb-3c30-4f57-9eee-58d453bd620b</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID e25302be-1fe2-4f4d-8506-cc95d940c427</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 909f8e13-975b-4402-baa0-da431e3663dd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent2</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:33</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ac412439-9f97-47bf-b25f-254b06d24a0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID ac412439-9f97-47bf-b25f-254b06d24a0d</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:33</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:33</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:33</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:10:53</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID d6412ae5-5b53-40aa-b033-2fca5c6f1ffb</value>
+					<value>GUID 32dbe2d3-98b7-422c-bdd4-bd57a4aa9fa0</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID d6412ae5-5b53-40aa-b033-2fca5c6f1ffb</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 32dbe2d3-98b7-422c-bdd4-bd57a4aa9fa0</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService2</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:56</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 35bbb962-9a4d-4945-9158-4c790102b23a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 32db3c03-a012-4c85-a2a0-1db3aef15dd4</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID b515b8ff-2d14-4619-a2ac-60d82089f3d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent3</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID b13004b2-084a-4321-bdd1-b49ca89f9127</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID b13004b2-084a-4321-bdd1-b49ca89f9127</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent3</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:29</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:29</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:29</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:10:58</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 2eea6dd3-703d-42dc-8aff-1b20f2438365</value>
+					<value>GUID 1d04bf6a-baa9-4994-8f08-a4a999f9d792</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 2eea6dd3-703d-42dc-8aff-1b20f2438365</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 1d04bf6a-baa9-4994-8f08-a4a999f9d792</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService3</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:51</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:51</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 341d2df4-1a1d-4ee1-a142-85303d65ce70</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID aacba4ac-41b3-4149-981c-8c7f249d5a9a</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 9d7736b7-4ed8-4dc1-883c-854579ecbeda</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent4</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID a857dd65-1fc3-4eb1-8b94-e1ae66a78df5</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID a857dd65-1fc3-4eb1-8b94-e1ae66a78df5</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent4</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:26</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:26</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:26</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:11:6</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 14ac5d7e-015a-411f-848c-83ab4b2df8ff</value>
+					<value>GUID b2586315-3949-4fc6-8458-7d3a56a9dd5e</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 14ac5d7e-015a-411f-848c-83ab4b2df8ff</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID b2586315-3949-4fc6-8458-7d3a56a9dd5e</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService4</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:48</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:48</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID e7f295d3-1856-432b-b284-5822ced0ab34</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 582cfffd-dfaa-4a98-ba82-7de49cab28bf</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 9c99237e-67aa-42a6-bcd8-193e197febed</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent5</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:23</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID bec6dcc8-b186-4889-bc77-43e03e00988d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID bec6dcc8-b186-4889-bc77-43e03e00988d</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:23</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:23</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:23</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:11:11</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 68937268-f07b-4a72-8f0f-7d1d8ffecdc0</value>
+					<value>GUID e0c40b88-956a-4666-9cdd-24213f975c9d</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 68937268-f07b-4a72-8f0f-7d1d8ffecdc0</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID e0c40b88-956a-4666-9cdd-24213f975c9d</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSWService5</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:44</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:44</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID ed094d7e-4578-445e-a4ee-9542e08eacf2</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 3bea1f97-f7e4-4acf-95c8-2e8bb5d4304a</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 6d51525c-91c0-45cf-9929-ea7326cdd5f1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent6</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:16:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:16:8</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID f32b12ae-1d7c-4848-b009-eb36db3b995d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID f32b12ae-1d7c-4848-b009-eb36db3b995d</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent6</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:16:8</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:16:8</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:16:8</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:11:16</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 9b2f58c6-acac-48ea-9879-6f3c31f3d311</value>
+					<value>GUID 8a6f4261-e8e0-48f6-8a5e-1ff8f6c3b9bd</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 9b2f58c6-acac-48ea-9879-6f3c31f3d311</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 8a6f4261-e8e0-48f6-8a5e-1ff8f6c3b9bd</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwService6</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:41</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:41</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 0447e2f5-556a-43aa-9b87-24fdb49f477a</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID eae696f1-ff82-403b-a5d9-9cb7a43b0be2</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID df0f87ff-b489-42e5-ab44-fa55ec9c6b9e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent7</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:15:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:15:48</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID fe6e8a96-6d4e-4a10-ba4d-ddb56db1137c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID fe6e8a96-6d4e-4a10-ba4d-ddb56db1137c</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:15:48</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:15:48</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:15:48</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:11:21</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 9e1e5546-8fa4-4557-8833-d8fc96905276</value>
+					<value>GUID fe41fb2f-5ddb-4027-9c2b-511ada48fc1e</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID 9e1e5546-8fa4-4557-8833-d8fc96905276</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID fe41fb2f-5ddb-4027-9c2b-511ada48fc1e</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwService7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:33</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:33</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6ab9cc08-f4b3-42d4-898e-a22df6aca4f8</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID 12a0d314-3286-49f9-abf1-a6b05626e44d</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID a9cc36e3-ca92-4f8a-b175-c43ee8371b6d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWComponent8</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::17:14:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::17:14:24</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 676aa8df-2e11-41c8-a7e1-32a1116ea912</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 676aa8df-2e11-41c8-a7e1-32a1116ea912</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">SWComponent8</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:14:24</_modifiedTimeWeak>
+				<_theMainDiagram type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IDiagram</_hm2Class>
+						<_hname type="a">ADCUSwIntegrationModel</_hname>
+						<_hid type="a">GUID 48eac87b-fd88-44b1-ac7d-69ea53e73b58</_hid>
+					</IHandle>
+				</_theMainDiagram>
+				<_modifiedTime type="a">11.21.2022::17:14:24</_modifiedTime>
+				<weakCGTime type="a">11.21.2022::17:14:24</weakCGTime>
+				<strongCGTime type="a">11.21.2022::17:11:25</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID e746c1a4-0f49-47c3-b2e0-d8a0cdd0e25f</value>
+					<value>GUID 66ab6ae5-69ea-4f79-a598-e4058de9299a</value>
+				</AggregatesList>
+			</IClass>
+			<IGeneralization type="e">
+				<_id type="a">GUID e746c1a4-0f49-47c3-b2e0-d8a0cdd0e25f</_id>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_inheritanceType type="a">iPublic</_inheritanceType>
+				<_isVirtual type="a">0</_isVirtual>
+			</IGeneralization>
+			<IAssociationEnd type="e">
+				<_id type="a">GUID 66ab6ae5-69ea-4f79-a598-e4058de9299a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">itsSwService7</_name>
+				<_modifiedTimeWeak type="a">11.21.2022::17:13:18</_modifiedTimeWeak>
+				<_modifiedTime type="a">11.21.2022::17:13:18</_modifiedTime>
+				<_multiplicity type="a">1</_multiplicity>
+				<_otherClass type="r">
+					<IClassifierHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 6ab9cc08-f4b3-42d4-898e-a22df6aca4f8</_hid>
+					</IClassifierHandle>
+				</_otherClass>
+				<_inverse type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IAssociationEnd</_hm2Class>
+						<_hid type="a">GUID e61b176f-4fcd-493b-95fd-44f2da1060cc</_hid>
+					</IHandle>
+				</_inverse>
+				<_linkType type="a">Assoc</_linkType>
+				<_navigability type="a">Navigable</_navigability>
+			</IAssociationEnd>
+			</_implicitClass>
+		</IPart>
+		<IClass type="e">
+			<_id type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwComponentInstance</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">Metaclass</_hname>
+							<_hid type="a">GUID 233ced74-b7c6-4a52-b550-768b9b0b9e2c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.21.2022::14:29:3</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">SwIntegrationConcept</_hname>
+					<_hid type="a">GUID 0e1edff1-2eba-456c-b43f-51ef3f25817d</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.21.2022::14:29:3</_modifiedTime>
+			<weakCGTime type="a">11.21.2022::14:29:3</weakCGTime>
+			<strongCGTime type="a">11.21.2022::14:28:46</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID e973de3d-d865-4b19-b6b3-2af4cdef72e4</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID e973de3d-d865-4b19-b6b3-2af4cdef72e4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsServiceInstance</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:29:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:29:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID f773e84d-dc9e-426c-bb5e-17fb6296d24e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ServiceInstance</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">Metaclass</_hname>
+							<_hid type="a">GUID 233ced74-b7c6-4a52-b550-768b9b0b9e2c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.21.2022::14:35:54</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">SwIntegrationConcept</_hname>
+					<_hid type="a">GUID 0e1edff1-2eba-456c-b43f-51ef3f25817d</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1250\deff0\deflang1038{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset238{\*\fname Arial;}Arial CE;}}%0D
+\viewkind4\uc1\pard\lang1033\fs20 Service instance represented by a composition in the model.\lang1038\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">11.21.2022::14:35:54</_modifiedTime>
+			<weakCGTime type="a">11.21.2022::14:35:54</weakCGTime>
+			<strongCGTime type="a">11.21.2022::14:28:38</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID f773e84d-dc9e-426c-bb5e-17fb6296d24e</value>
+				<value>GUID 9f0389b3-18cf-4f13-bc4f-6a03195146d3</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f773e84d-dc9e-426c-bb5e-17fb6296d24e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSwComponentInstance</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:29:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:29:29</_modifiedTime>
+			<_multiplicity type="a">1..*</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID c68be676-e806-4c66-a42b-7c90604da3e6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID e973de3d-d865-4b19-b6b3-2af4cdef72e4</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Composition</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 9f0389b3-18cf-4f13-bc4f-6a03195146d3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSWEntity</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:34:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:34:30</_modifiedTime>
+			<_multiplicity type="a">*</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID ccbb8f5e-728f-4f00-a9be-1a0166045d39</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWEntity</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">Metaclass</_hname>
+							<_hid type="a">GUID 233ced74-b7c6-4a52-b550-768b9b0b9e2c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.21.2022::14:40:15</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">SwIntegrationConcept</_hname>
+					<_hid type="a">GUID 0e1edff1-2eba-456c-b43f-51ef3f25817d</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.21.2022::14:40:15</_modifiedTime>
+			<weakCGTime type="a">11.21.2022::14:40:15</weakCGTime>
+			<strongCGTime type="a">11.21.2022::14:34:58</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID ccbb8f5e-728f-4f00-a9be-1a0166045d39</value>
+				<value>GUID afec1b3a-7b14-4319-a0ec-124fc88745f1</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ccbb8f5e-728f-4f00-a9be-1a0166045d39</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsServiceInstance</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:34:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:34:11</_modifiedTime>
+			<_multiplicity type="a">1..*</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 1369d7c4-e969-43e3-a051-c467aebfe897</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 9f0389b3-18cf-4f13-bc4f-6a03195146d3</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Composition</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID afec1b3a-7b14-4319-a0ec-124fc88745f1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsIntegratedSW</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:40:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:40:15</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID b5c820cd-abf2-4395-90f3-9974be5e0103</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 12c18a9c-7e18-459d-9173-eb596715c281</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID b5c820cd-abf2-4395-90f3-9974be5e0103</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">IntegratedSW</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">Metaclass</_hname>
+							<_hid type="a">GUID 233ced74-b7c6-4a52-b550-768b9b0b9e2c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">11.21.2022::17:25:42</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">SwIntegrationConcept</_hname>
+					<_hid type="a">GUID 0e1edff1-2eba-456c-b43f-51ef3f25817d</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.21.2022::17:25:42</_modifiedTime>
+			<weakCGTime type="a">11.21.2022::17:25:42</weakCGTime>
+			<strongCGTime type="a">11.21.2022::17:25:42</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 12c18a9c-7e18-459d-9173-eb596715c281</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 12c18a9c-7e18-459d-9173-eb596715c281</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSWEntity</_name>
+			<_modifiedTimeWeak type="a">11.21.2022::14:40:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.21.2022::14:40:19</_modifiedTime>
+			<_multiplicity type="a">1..*</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7a4b1f18-1239-42a2-8232-2dec6c4f3141</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID afec1b3a-7b14-4319-a0ec-124fc88745f1</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Composition</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
